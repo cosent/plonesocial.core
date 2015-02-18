@@ -48,6 +48,7 @@ setup(
         'setuptools',
         # -*- Extra requirements: -*-
         'plone.api',
+        'plone.app.blocks',
         'plone.app.tiles'
     ],
     extras_require={
