@@ -15,7 +15,7 @@ long_description = (
 )
 
 setup(
-    name='plonesocial.core',
+    name='ploneintranet.core',
     version=version,
     description="Plonesocial core package",
     long_description=long_description,
@@ -37,11 +37,11 @@ setup(
     keywords='plone socbiz social microblog activity stream',
     author='Bogdan Girman',
     author_email='bogdan.girman@gmail.com',
-    url='http://github.com/cosent/plonesocial.core',
+    url='http://github.com/cosent/ploneintranet.core',
     license='gpl',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    namespace_packages=['plonesocial'],
+    namespace_packages=['ploneintranet'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[

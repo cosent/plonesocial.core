@@ -7,8 +7,8 @@ travis: bin/buildout
 	bin/buildout -c travis.cfg -N -t 10
 
 test:
-	bin/test plonesocial.core
-	bin/flake8 src/plonesocial
+	bin/test ploneintranet.core
+	bin/flake8 src/ploneintranet
 
 bin/buildout: bin/python buildout-cache/downloads
 	bin/python bootstrap.py -v 2.2.1
@@ -25,7 +25,7 @@ clean:
 
 # this assumes you're in a ploneintranet.suite buildout
 GENERATED=../ploneintranet.theme/src/ploneintranet/theme/static/generated
-TARGET=src/plonesocial/core/browser/
+TARGET=src/ploneintranet/core/browser/
 
 sync:
 	rsync -av --exclude colours.css $(GENERATED)/style/ $(TARGET)/stylesheets/

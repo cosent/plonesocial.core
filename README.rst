@@ -3,11 +3,11 @@
 Introduction
 ============
 
-`plonesocial.core` provides shared functionality for the suite of plonesocial packages.
+`ploneintranet.core` provides shared functionality for the suite of ploneintranet packages.
 
 It has two install profiles:
 
-- `minimal` will install several browser views that are re-used in plonesocial
+- `minimal` will install several browser views that are re-used in ploneintranet
 
 - `default` extends `minimal` and additionally loads patternslib javascript and css bundles
 
