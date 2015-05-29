@@ -1,40 +1,31 @@
-.. contents::
+Deprecated
+==========
 
-Introduction
-============
+The plonesocial.* group of packages has become ploneintranet_.
 
-`plonesocial.core` provides shared functionality for the suite of plonesocial packages.
+Plone Intranet features a complete redesign and re-implementation of the
+front-end user interface of plonesocial. The backend is largely unchanged
+but extended with new features: liking updates, personalized tagging.
 
-It has two install profiles:
+Work on the ploneintranet `code base`_ is sponsored by the
+`Plone Intranet Consortium`_, a group of companies dedicated to delivering
+the leading open source digital workplace platform, based on Plone.
+Have a look, you'll like it. It's 100% open source.
 
-- `minimal` will install several browser views that are re-used in plonesocial
+|Cosent|_
 
-- `default` extends `minimal` and additionally loads patternslib javascript and css bundles
+Plonesocial and Plone Intranet are initiatives by Cosent_.
 
-If you want to use your own provided javascript and css, run only the `minimal` profile.
-If you don't know what patternslib is, run the `default` profile.
+This repository is maintained frozen for developers who have made forks
+for use in their own projects. If you're one of those developers and are
+interested in upgrading to Plone Intranet, please contact Cosent_.
 
-Developer note
---------------
+Please note that commits after August 2014 are part of the ploneintranet
+rewrite, before plonesocial.* got merged into ploneintranet.*.
 
-The stylesheets and javascripts in the `default` profile are copied over from `ploneintranet.theme_`.
-
-To refresh those, run `make sync` and commit the changes.
-
-
-Copyright (c) Plone Foundation
-------------------------------
-
-This package is Copyright (c) Plone Foundation.
-
-Any contribution to this package implies consent and intent to irrevocably transfer all
-copyrights on the code you contribute, to the `Plone Foundation`_,
-under the condition that the code remains under a `OSI-approved license`_.
-
-To contribute, you need to have signed a Plone Foundation `contributor agreement`_.
-If you're `listed on Github`_ as a member of the Plone organization, you already signed.
-
-.. _Plone Foundation: https://plone.org/foundation
-.. _OSI-approved license: http://opensource.org/licenses
-.. _contributor agreement: https://plone.org/foundation/contributors-agreement
-.. _listed on Github: https://github.com/orgs/plone/people
+.. _ploneintranet: https://github.com/ploneintranet/ploneintranet
+.. _code base: https://github.com/ploneintranet/ploneintranet
+.. _Plone Intranet Consortium: http://ploneintranet.com
+.. _Cosent: http://cosent.nl
+.. |Cosent| image:: http://cosent.nl/images/logo-external.png 
+                    :alt: Cosent
